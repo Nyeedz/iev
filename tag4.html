@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>IEV - Instituto de Estudos Valeparaibanos</title>
+
+  <!-- CSS  -->
+  <link rel="apple-touch-icon" sizes="57x57" href="imgs/ico/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="imgs/ico/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="imgs/ico/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="imgs/ico/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="imgs/ico/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="imgs/ico/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="imgs/ico/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="imgs/ico/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="imgs/ico/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="imgs/ico/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="imgs/ico/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="imgs/ico/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="imgs/ico/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="imgs/ico/manifest.json">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="js/materialize.js"></script>
+</head>
+<body style="background-color: #FAFAFA;">
+  <main>
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">Arquivos</a></li>
+      <li><a href="#!">Biblioteca</a></li>
+    </ul>
+    <ul id="dropdown2" class="dropdown-content">
+      <li><a href="#!">Fotos e Imagens</a></li>
+      <li><a href="#!">Membros</a></li>
+    </ul>
+    <ul id="dropdown3" class="dropdown-content">
+      <li><a href="historia.html">História</a></li>
+      <li><a href="#!">Memórias</a></li>
+      <li><a href="#!">Documentação</a></li>
+      <li><a href="simposio_historia.html">Simpósio de história</a></li>
+      <li><a href="#!">Prêmios Concedidos</a></li>
+    </ul>
+    <ul id="dropdown1mb" class="dropdown-content">
+      <li><a href="#!">Arquivos</a></li>
+      <li><a href="#!">Biblioteca</a></li>
+    </ul>
+    <ul id="dropdown2mb" class="dropdown-content">
+      <li><a href="#!">Fotos e Imagens</a></li>
+      <li><a href="#!">Membros</a></li>
+    </ul>
+    <ul id="dropdown3mb" class="dropdown-content">
+      <li><a href="historia.html">História</a></li>
+      <li><a href="#!">Memórias</a></li>
+      <li><a href="#!">Documentação</a></li>
+      <li><a href="simposio_historia.html">Simpósio de história</a></li>
+      <li><a href="#!">Prêmios Concedidos</a></li>
+    </ul>
+    <div class="navbar-fixed">
+      <nav class="navbar-material">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo"><img src="imgs/topo.png"></img></a>
+          <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="/">Página Inicial</a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Acervo<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="diretoria.html">Diretoria</a></li>
+            <li><a href="informativos.html">Informativos</a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Galeria<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown3">História e Memória<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="active" href="premios.html">Prêmiações Culturais</a></li>
+            <li><a href="leitor.html">Espaço do Leitor</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile">
+            <li><a href="/">Página Inicial</a></li>
+            <li><a class="dropdown-buttonmb" href="#!" data-activates="dropdown1mb">Acervo<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="#iretoria.html">Diretoria</a></li>
+            <li><a href="informativos.html">Informativos</a></li>
+            <li><a class="dropdown-buttonmb" href="#!" data-activates="dropdown2mb">Galeria<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-buttonmb" href="#!" data-activates="dropdown3mb">História e Memória<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="active" href="premios.html">Prêmiações Culturais</a></li>
+            <li><a href="leitor.html">Espaço do Leitor</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container" id="teste"><br>
+      <h4 style="color: #4867C7;">Distinção Ecológica “Prof José Luis Pasin“</h4><br><br>
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s12 m6"><a class="active" href="#test1">História da Premiação</a></li>
+            <li class="tab col s12 m6"><a href="#test2">Relação dos premiados</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div id="test1" class="col s12 m12"><br>
+          <img src="imgs/tag4.jpg" alt="" class="circle responsive-img" style="float:left; padding:10px;" width="292px" height="177px;">
+          <h style="color:gray;"><br>
+            A Medalha de Mérito do Instituto de Estudos Valeparaibanos destina-se a destacar o desempenho e os serviços prestados pelos membros do IEV à Instituição e as atividades voltadas para investigar, estudar e despertar o interesse pela região; valorizar o passado e o presente do Vale do Paraíba por meio do conhecimento de sua história, de sua cultura e as perspectivas de desenvolvimento ; e, a postura permanente na defesa do nosso patrimônio cultural e ambiental.
+          </div>
+        </div>
+        <div id="test2" class="col s12">
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px; bottom: 22rem;">
+                2013
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal1">Alexandre Marcos Lourenço Barbosa</a><br>
+                <a class="waves-effect modal-trigger" href="#modal2">Andréia Auxiliadora Marcondes de Paula</a><br>
+                <a class="waves-effect modal-trigger" href="#modal3">Angélica Maria Vilela Rebello Santos</a><br>
+                <a class="waves-effect modal-trigger" href="#modal4">Antonio Monteiro Chaves</a><br>
+                <a class="waves-effect modal-trigger" href="#modal5">Antônio Tadeu de Miranda Alves</a><br>
+                <a class="waves-effect modal-trigger" href="#modal6">Aparecida Gonçalves Uchoas</a><br>
+                <a class="waves-effect modal-trigger" href="#modal7">Armindo Boll</a><br>
+                <a class="waves-effect modal-trigger" href="#modal8">Benedito Carlos Marcondes Coelho</a><br>
+                <a class="waves-effect modal-trigger" href="#modal9">Benedito Sérgio Lencioni</a><br>
+                <a class="waves-effect modal-trigger" href="#modal10">Catarina A. Vieira Vilela</a><br>
+                <a class="waves-effect modal-trigger" href="#modal11">Cybelle M. de Ipanema</a><br>
+                <a class="waves-effect modal-trigger" href="#modal12">Diego Amaro de Almeida</a><br>
+                <a class="waves-effect modal-trigger" href="#modal13">Eddy Carlos Souza Vicente</a><br>
+                <a class="waves-effect modal-trigger" href="#modal14">Efigênia Augusta de Freitas</a><br>
+                <a class="waves-effect modal-trigger" href="#modal15">Fábio Garcia dos Reis</a><br>
+                <a class="waves-effect modal-trigger" href="#modal16">Francisco de Vasconcelos</a><br>
+                <a class="waves-effect modal-trigger" href="#modal17">Francisco José de Castro Fortes</a><br>
+                <a class="waves-effect modal-trigger" href="#modal18">Francisco Sodero Toledo</a><br>
+                <a class="waves-effect modal-trigger" href="#modal19">Henrique Alckimin Prudente</a><br>
+                <a class="waves-effect modal-trigger" href="#modal20">Humberto Felipe da Silva</a><br>
+                <a class="waves-effect modal-trigger" href="#modal21">Joaquim Roberto Fagundes</a><br>
+                <a class="waves-effect modal-trigger" href="#modal22">José Armando Zollner Machado</a><br>
+                <a class="waves-effect modal-trigger" href="#modal23">Juanita Leite Marcondes</a><br>
+                <a class="waves-effect modal-trigger" href="#modal24">Luiz Eduardo Corrêa Lima</a><br>
+                <a class="waves-effect modal-trigger" href="#modal25">Maria Aparecida Couppé Schmidt</a><br>
+                <a class="waves-effect modal-trigger" href="#modal26">Maria Aparecida Marton</a><br>
+                <a class="waves-effect modal-trigger" href="#modal27">Maria Celina Whately</a><br>
+                <a class="waves-effect modal-trigger" href="#modal28">Mauro Castilho Gonçalves</a><br>
+                <a class="waves-effect modal-trigger" href="#modal29">Mônica da Costa</a><br>
+                <a class="waves-effect modal-trigger" href="#modal30">Nelson Pesciotta</a><br>
+                <a class="waves-effect modal-trigger" href="#modal31">Olga de Sá</a><br>
+                <a class="waves-effect modal-trigger" href="#modal32">Regina Kátia Rico Santos de Mendonça</a><br>
+                <a class="waves-effect modal-trigger" href="#modal33">Sônia Maria Gabriel</a><br>
+                <a class="waves-effect modal-trigger" href="#modal34">Tereza Maria Barbosa Rezende</a><br>
+                <a class="waves-effect modal-trigger" href="#modal35">Terezinha Paiva de Faria</a><br>
+                <a class="waves-effect modal-trigger" href="#modal36">Thereza e Tom Maia</a><br>
+                <a class="waves-effect modal-trigger" href="#modal37">Tom Maia</a><br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 1 -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <img src="imgs/tag4-modal1.jpg" width="250px" height="230px" style="float:left; padding: 10px;">
+          <h4 style="color:#013E80;">Alexandre Marcos Lourenço Barbosa</h4>
+          <p>
+            Nasceu em Aparecida-SP, na primavera de 65. Depois de licenciar-se em Filosofia e Pedagogia, incursionou pelas “hinterlands” da Geografia Humana num curso de pós-graduação na USP. Há 25 anos no magistério, atuou, como professor, do ensino fundamental ao superior. Como diretor titular de uma escola pública estadual paulista trabalha com crianças e jovens, desde dezembro de 1988. Organizador de três livros, já escreveu outros três: Contando a Arte de Gilberto Gomes, indicado para o Prêmio Portugal Telecom em 2006, na categoria biografias; O Santo, a Coroa e os Reis, que recebeu o prêmio Eugênia Sereno 2007, do Instituto de Estudos Valeparaibanos (IEV), como melhor livro de História Local; e Aparecida, livro em edição bilíngüe (português/alemão) recém-lançado na Alemanha e com lançamento no Brasil previsto para 2008. Foi presidente do XXVII Simpósio de História do Vale do Paraíba.<br><br>
+            <b>Premiação:</b><br>
+            Recebeu o prêmio Eugênia Sereno, na categoria História Local, com a obra "Ö Santo, a Coroa, e os Reis"<br>
+            Recebeu o prêmio Eugênia Sereno, na categoria História Religiosa, com a obra “ Aparecida “<br>
+            Recebeu prêmio Eugenia Sereno, pela obra "Grandes Escritores do Vale do Paraíba",<br>
+            Recebeu o prêmio Eugênia Sereno, com a obra " Vale do Paraiba: Literatura e História na pessoa de Alexandre Lourenço Barbosa.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+
+      <!-- Modal 2 -->
+      <div id="modal2" class="modal">
+        <div class="modal-content">
+          <img src="imgs/iev.jpg" width="250px" height="230px" style="float:left;padding:10px;">
+          <h4 style="color:#013E80;">Andréia Auxiliadora Marcondes de Paula</h4><br>
+          <p>
+          É formada em História pelo Centro UNISAL de Lorena-SP,<br><br><br><br><br><br>
+            <b>Premiação:</b><br>
+            Recebeu MEDALHA DE MÉRITO IEV.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+
+      <!-- Modal 3 -->
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <img src="imgs/tag4-modal3.JPG" width="300px" height="280px" style="float:left;padding:10px;">
+          <h4 style="color:#013E80;">Angélica Maria Vilela Rebello Santos</h4><br>
+          <p>
+            <b>Premiação:</b><br>
+            Recebeu Premio "Eugênia Sereno", na categoria Romance, com a obra “ São David dos Pilões”.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+
+      <!-- Modal 4 -->
+      <div id="modal4" class="modal">
+        <div class="modal-content">
+          <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left;">
+          <h4 style="color:#013E80;">Antonio Monteiro Chaves</h4><br><br><br>
+          <p>
+            <b>Premiação:</b><br>
+            Recebeu prêmio Eugenia Sereno pela obra "Diocese de Lorena – 75 anos de História"
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+
+      <!-- Modal 5 -->
+      <div id="modal5" class="modal">
+        <div class="modal-content">
+          <img src="imgs/tag4-modal5.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+          <h4 style="color:#013E80;">Antônio Tadeu de Miranda Alves</h4><br>
+          <p>
+            Nasceu em Cachoeira Paulista, em 1953. Filho de gente de Silveiras passou a viver em Lorena desde os 5 anos de idade, sendo, portanto, filho da história desta cidade. Casado com Miriângela, professora e pedagoga, tem uma filha moça, Mariana.<br><br><br><br>
+            <b>Premiação:</b><br>
+              Recebeu MEDALHA DE MÉRITO IEV.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+
+      <!-- Modal 6 -->
+      <div id="modal6" class="modal">
+        <div class="modal-content">
+          <img src="imgs/tag4-modal6.jpg" width="230px" height="200px" style="float:left; padding:10px;">
+          <h4 style="color:#013E80;">Aparecida Gonçalves Uchoas</h4><br>
+          <p>
+          Natural de Piquete/SP, é licenciada em História, pós graduada em História da América e em Gestão de Pessoas pela Unisal de Lorena. Atuou na organização inicial do Centro de Documentação, que compõe o Centro Salesiano de Pesquisas Regionais José Luiz Pasin; também, juntamente com este patrono, colaborou na manutenção da Biblioteca e Arquivo do Instituto de Estudos Valeparaibanos<br><br>
+            <b>Premiação:</b><br>
+              Recebeu MEDALHA DE MÉRITO IEV.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+
+      <!-- Modal 7 -->
+      <div id="modal7" class="modal">
+        <div class="modal-content">
+          <img src="imgs/tag4-modal7.jpg" width="200px" height="200px" style="float:left;padding: 10px;">
+          <h4 style="color:#013E80;">Armindo Boll</h4><br>
+          <p>
+            Possui graduação em Estudos Sociais pela Fundação Educacional de Brusque (1980), graduação em Bacharel em Teologia pela Pontifícia Universidade Católica do Rio de Janeiro (1983), graduação em História pelo Centro Universitário Assunção (1987) e mestrado pela Pontifícia Universidade Católica de São Paulo (1992).<br><br><br>
+            <b>Premiação:</b><br>
+              Recebeu MEDALHA DE MÉRITO IEV.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+
+      <!-- Modal 8 -->
+      <div id="modal8" class="modal">
+        <div class="modal-content">
+          <img src="imgs/iev.jpg" width="250" height="230px" style="float:left; padding: 10px;">
+          <h4 style="color:#013E80;">Benedito Carlos Marcondes Coelho</h4><br>
+          <p>
+          <b>Premiação:</b><br>
+          Recebeu Prêmio "Eugenia Sereno" na categoria Política, com a obra "O processo político de Guaratinguetá - 2001 a 2004"
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+      </div>
+    </div>
+
+    <!-- Modal 9 -->
+    <div id="modal9" class="modal">
+      <div class="modal-content">
+        <img src="imgs/tag4-modal9.JPG" width="250" height="230px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Benedito Sérgio Lencioni</h4><br>
+        <p>
+          Benedicto Sérgio Lencioni (Jacareí-SP, 23 de maio de 1936) é um professor, historiador, advogado, pintor, escritor e político de Jacareí. Escreveu diversos livros sobre a história da cidade.<br><br><br><br><br>
+          <b>Premiação:</b><br>
+          Recebeu Prêmio "Eugenia Sereno" na categoria História Local, com a obra “A História da Imprensa em Jacareí “.<br>
+          Recebeu prêmio Eugenia Sereno, na categoria Pesquisa Histórica pela obra “Corneta da Morte“.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+      </div>
+    </div>
+
+    <!-- Modal 10 -->
+    <div id="modal10" class="modal">
+      <div class="modal-content">
+        <img src="imgs/tag3-modal10.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Caio de Andrade</h4><br>
+        <p>
+          Caio de Andrade é um dramaturgo e diretor de teatro brasileiro. Nascido em Lorena, SP e radicado no Rio de Janeiro, escreveu e dirigiu diversos espetáculos, muitos deles indicados ou ganhadores dos principais prêmios do Brasil.<br><br><br><br><br><br>
+
+          <b>Premiação:</b><br>
+          Recebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+      </div>
+    </div>
+
+    <!-- Modal 11 -->
+    <div id="modal11" class="modal">
+      <div class="modal-content">
+        <img src="imgs/tag3-modal11.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Lucila Junqueira Barbosa</h4><br>
+        <p>
+          Lucila Junqueira Barbosa é professora, doutora e reitora da UNITAU.<br><br><br><br><br><br><br><br><br>
+          <b>Premiação:</b><br><br>
+          Recebeu a DISTINÇÃO CULTURAL “PAULO CAMILHER FLORENÇANO” pela Preservação da Memória Cultural da Imigração Italiana no Município de Taubaté.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+      </div>
+    </div>
+
+    <!-- Modal 12 -->
+    <div id="modal12" class="modal">
+      <div class="modal-content">
+        <img src="imgs/tag2-modal6.jpg" width="250px" height="230px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Ruth Guimarães Botelho</h4><br>
+        <p>
+          Nasceu em Cachoeira Paulista, no dia 13 de junho de 1920, em sítio do avô materno, o português José Botelho, guarda-chaves da Estrada de Ferro Central do Brasil, na rua do Aterro, atual Carlos Pinto, entre as barrancas do rio Paraíba e os trilhos da estrada de ferro. Aos dez anos de idade, publicou seus primeiros versos nos jornais locais “A Região” e “A Notícia”.<br><br>
+          Foi viver em São Paulo, em 1938. Ingressou no curso de Letras Clássicas da Faculdade de Filosofia, Ciências e Letras da Universidade de São Paulo, onde foi aluna de Silveira Bueno, Antonio Soares Amora, Fidelino de Figueiredo, Roger Bastide e outros mestres de renome internacional. Ali conheceu Odilon Nogueira de Mattos, então secretário da faculdade. E foi colega de estudos de Erwin Rosenthal e Emir Macedo Nogueira.<br><br>
+          Freqüentou a Escola de Arte Dramática, de Alfredo Mesquita, estudando Dramaturgia e Crítica. Foi aluna e discípula de Mário de Andrade, que a iniciou nos estudos de folclore e literatura popular. Trabalhou para diversas editoras co-mo revisora e tradutora e escreveu crônicas, artigos e crítica literária para jornais e revistas de São Paulo, Rio de Janeiro e Lisboa: Correio Paulistano, A Gazeta, Diário de São Paulo, Folha da Manhã, publicando contos no Suplemento Literário do jornal O Estado de São Paulo e crônicas semanais para o jornal Folha de São Paulo. Produziu vários livros e traduções para a Editora Cultrix, onde trabalhou ao lado de José Paulo Paes.<br><br>
+          Foi repórter das revistas Noite Ilustrada, Carioca, Globo, Semana Ilustrada, Senhora, Quatro Rodas, Realidade, Atualidades Literárias e Revista Lusitana (Portugal). Em 1946, lançou pela Editora da Livraria Globo seu primeiro livro, Água Funda, romance que retrata o universo rural e caipira do Vale do Paraíba paulista e mineiro, nas vertentes da serra da Mantiqueira, sucesso de público e crítica. Um dos primeiros críticos a lhe dar atenção foi Antonio Cândido, seu amigo até hoje e autor do prefácio da reedição lançada pela Editora Nova Fronteira em 2004. No lançamento de Água Funda, estiveram presentes personalidades como Amadeu de Queiroz, Guimarães Rosa e Lygia Fagundes Telles.<br><br>
+          Seu segundo livro, Filhos do Medo, ampla pesquisa folclórica sobre o diabo e todas as manifestações demoníacas no imaginário do homem valeparaibano, valeu-lhe um verbete na Encyclopédie Française de la Pléiade, sendo Ruth Guimarães a única escritora latino-americana a receber esta distinção. Lecionou em colégios e faculdades: francês na Aliança Francesa de São Paulo, grego na Universidade de Taubaté, Folclore na Faculdade de Música Santa Cecília de Pindamonhangaba, Psicologia da Arte e Literatura Latina nas Faculdades Integradas Teresa D'Ávila em Lorena, Literatura Brasileira e Portuguesa na Faculdade de Filosofia, Ciências e Letras de Cruzeiro. Há trinta anos vem pesquisando as ervas e raízes medicinais e hoje prepara uma enciclopédia em doze volumes sobre me-dicina natural. Fundou a Academia Cachoeirense de Letras, o Museu de Folclore Valdomiro Silveira e a Guarda Mirim de Cachoeira Paulista. Participou ativamente do 1º Congresso Brasileiro de Folclore, da Sociedade Paulista de Escrito-res, do Centro de Pesquisas Folclóricas Mário de Andrade, da Comissão Estadual de Folclore, dos Festivais de Folclore de Olímpia. É membro do Instituto de Es-tudos Valeparaibanos e da União Brasileira de Escritores. Em 1989, recebeu do Instituto de Estudos Valeparaibanos o Prêmio Cultural “Eugênia Sereno”. Além de mais de quarenta livros publicados, incluindo biografias, antologias e tradu-ções do latim, do espanhol, do francês e do italiano, Ruth Guimarães participou da montagem da peça “Romaria”, dirigida por Miroel Silveira, com músicas de Almir Sater e Renato Teixeira. O Grupo de Teatro do SESC de São Paulo encenou a peça de sua autoria “A Pensão de Dona Branca”.<br><br>
+          Reside atualmente em Cachoeira Paulista, no sítio herdado de seu avô materno, onde cuida das suas plantas, galinhas e patos, pesquisa e escreve seus livros, contos e crônicas, recebe os amigos, alunos e admiradores para a prosa gos-tosa e hospitaleira. Terminou a mais completa pesquisa sobre Pedro Malazarte, o herói mitológico popular e está escrevendo um novo romance intitulado O Livro da Bruxa. Foi casada por 51 anos com o primo, o fotógrafo e jornalista José Botelho Netto, amigo e companheiro de jornadas e pesquisas, morto em 2001. Tiveram nove filhos: Marta, Rubem, Antonio José, Joaquim Maria, Judá, Marcos, Rovana, Olavo e Júnia: poetas, jornalistas, professores.<br><br>
+          Fonte: União Brasileira de Escritores<br><br><br>
+
+          <b>Premiação:</b><br><br>
+          Recebeu o Prêmio DISTINÇÃO CULTURAL “PAULO CAMILHER FLORENÇANO”.<br>
+          Recebeu Prêmio "Eugenia Sereno" na categoria Contos, com a obra “Caledoscópio-Asaga de Pedro Malasartes”.
+        </p>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 13 -->
+    <div id="modal13" class="modal">
+      <div class="modal-content">
+        <img src="imgs/tag3-modal13.JPG" width="300px" height="280px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Dr. Marcio Tomas Bastos</h4><br>
+        <p>
+          Nascido em Cruzeiro, ex-presidente  nacional da Ordem dos Advogados do Brasil.<br><br><br><br><br><br><br><br>
+          <b>Premiação:</b><br><br>
+          Recebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS
+        </p>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 14 -->
+    <div id="modal14" class="modal">
+      <div class="modal-content">
+        <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Dr. José Alves</h4><br>
+        <p>
+          Advogado e ex- Reitor da Universidade de Taubaté <br><br><br><br><br><br><br><br><br><br>
+          <b>Premiação:</b><br><br>
+          Recebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS
+        </p>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 15 -->
+    <div id="modal15" class="modal">
+      <div class="modal-content">
+        <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Renato Cesar Brito de Moura</h4><br>
+        <p>
+          Diretor executivo da Associação Brasileira de Metalurgia Materiais e Mineração. <br><br><br><br><br><br><br><br>
+          <b>Premiação:</b><br><br>
+          Recebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS
+        </p>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 16 -->
+    <div id="modal16" class="modal">
+      <div class="modal-content">
+        <img src="imgs/hugo.jpg" width="250px" height="230px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Hugo de Domenico</h4><br>
+        <p>
+          Medico e escritor. Filho de Imigrantes Italianos. <br><br><br><br><br><br><br><br>
+          <b>Premiação:</b><br><br>
+          Recebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS
+        </p>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 17 -->
+    <div id="modal17" class="modal">
+      <div class="modal-content">
+        <img src="imgs/tag3-modal17.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Nelson Pesciotta</h4><br>
+        <p>
+          É natural de Campinas, onde nasceu a 3 de novembro de 1923. Fundador do jornal "Sete Dias" e do "Rotary Club" de Pindamonhangaba. Foi presidente do IEV por mais de 20 anos. Membro da Academia de Letras de Campos de Jordão e membro honorario da Academia Pindamonhangabense de Letras. Coordenador do NEPA.<br><br><br><br><br>
+          <b>Premiação:</b><br><br>
+          Recebeu prêmio DISTINÇÃO CULTURAL “PAULO CAMILHER FLORENÇANO”, enquanto era  presidente do Instituto de Estudos Valeparaibanos, homenageando seus 80 anos e os relevantes serviços prestados a cultura do Vale do Paraíba.<br>
+          Recebeu MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS “, pelo seu desempenho, destaque profissional e pelos 20 anos de Presidente do IEV.
+        </p>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 18 -->
+    <div id="modal18" class="modal">
+      <div class="modal-content">
+        <img src="imgs/hugo.jpg" width="250px" height="230px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Daniel Munduruku</h4><br>
+        <p>
+          Escritor indígena com 45 livros publicados, graduado em Filosofia, tem licenciatura em História e Psicologia. Doutor em Educação pela USP. <br><br><br><br><br><br>
+          <b>Premiação:</b><br><br>
+          Recebeu medalha de Mérito Paulo Pereira dos Reis.
+        </p>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 19 -->
+    <div id="modal19" class="modal">
+      <div class="modal-content">
+        <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Vicente de Paula Vale</h4><br>
+        <p>
+          <b>Premiação:</b><br><br>
+          Recebeu prêmio DISTINÇÃO CULTURAL “PAULO CAMILHER FLORENÇANO”, sendo organizador do Museu Malba Tahan, de Queluz.
+        </p>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 20 -->
+    <div id="modal20" class="modal">
+      <div class="modal-content">
+        <img src="imgs/tag2-modal20.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Eliana Ferreira Leite</h4><br>
+        <p>
+          <b>Premiação:</b><br><br>
+          Recebeu DISTINÇÃO CULTURAL “PAULO CAMILHER FLORENÇANO” pelo trabalho de preservação da Fazenda São Francisco em São José do Barreiro e a defesa do patrimônio histórico-cultural do Vale Histórico.
+        </p>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 21 -->
+    <div id="modal21" class="modal">
+      <div class="modal-content">
+        <img src="imgs/tag2-modal21.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Gil do Jongo</h4><br>
+        <p>
+          Mestre Gil (Gilberto Augusto da Silva) / Pontão do Jongo e Jongo do Piquete<br>
+          Gil do Jongo é uma liderança jovem, dedicada à divulgação do Jongo do Piquete pelo Brasil e exterior. Promove oficinas de jongo e, de forma lúdica e interativa, divide com os participantes seus conhecimentos das tradições e história negra no Brasil.
+          Fonte: II Mostra do Samba de Roda.<br>
+
+          <b>Premiação:</b><br><br>
+          Recebeu DISTINÇÃO CULTURAL “PAULO CAMILHER FLORENÇANO”, pela divulgação da cultura imaterial do Jongo.
+        </p>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 22-->
+    <div id="modal22" class="modal">
+      <div class="modal-content">
+        <img src="imgs/tag2-modal22.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Diego Amaro de Almeida</h4><br>
+        <p>
+          Mestre em História Social pela Pontifícia Universidade Católica de São Paulo (2014) Licenciado em História pelo Centro Universitário Salesiano de São Paulo (2009).<br><br>
+          Atualmente é Pesquisador do Portal valedoparaíba.com (2008) e Assistente do CESAPER “Centro Salesiano de Pesquisas Regionais - Prof. José Luiz Pasin” (2010)<br><br><br><br>
+          <b>Premiação:</b><br>
+          Recebeu Medalha de Mérito IEV.
+        </p>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="page-footer blue-iev">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12" id="teste">
+          <h5 class="white-text">Blogues e Sites </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+      <div class="container">
+        <center><b>© Copyright 2016</b> - Todos os direitos são reservados ao <b>Instituto de Estudos Valeparaibanos - IEV</b></center>
+      </div>
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script>
+  $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+    $('#modal1').openModal();
+    $('#modal1').closeModal();
+  });
+  </script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

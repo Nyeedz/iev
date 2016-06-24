@@ -1,0 +1,42 @@
+/* label color */
+ .input-field label {
+   color: gray;
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label{
+   color: #4867C7;
+ }
+ /* label underline focus color */
+.input-field input[type=email]:focus {
+   border-bottom: 1px solid #4867C7;
+   box-shadow: 0 1px 0 0 #4867C7;
+ }
+ textarea.materialize-textarea:focus:not([readonly]) + label {
+   color: #4867C7;
+ }
+ textarea.materialize-textarea:focus:not([readonly]) {
+   border-bottom: 1px solid #4867C7;
+   box-shadow: 0 1px 0 0 #4867C7;
+ }
+ .active textarea:focus + label{
+    border-bottom: 1px solid #4867C7;
+    box-shadow: 0 1px 0 0 #4867C7;
+  }
+ .input-field input[type=text]:focus {
+    border-bottom: 1px solid #4867C7;
+    box-shadow: 0 1px 0 0 #4867C7;
+  }
+ /* valid color */
+ .input-field input[type=text].valid {
+   border-bottom: 1px solid #000;
+   box-shadow: 0 1px 0 0 #000;
+ }
+ /* invalid color */
+ .input-field input[type=text].invalid {
+   border-bottom: 1px solid red;
+   box-shadow: 0 1px 0 0 red;
+ }
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+   color: #4867C7;
+ }

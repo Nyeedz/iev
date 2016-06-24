@@ -1,0 +1,77 @@
+body{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main{
+  flex: 1 0 auto;
+}
+.button-collapse {
+  margin-left: 15px;
+}
+nav ul a:hover {
+  background:#4867c7 ! important;
+	color: #fff ! important;
+}
+.cinza{
+  background-color: #FAFAFA;
+}
+.navbar-material .nav-wrapper .brand-logo img{
+  height: 64px;
+  margin-left: 20px;
+}
+@media all and (max-width: 600px){
+.navbar-material .nav-wrapper .brand-logo img{
+  height: 56px;
+}
+.collapsible{
+  margin-left: 0;
+  width: 90%;
+}
+}
+li a.active {
+  background-color: #4867C7;
+  color: white;
+}
+footer.blue-iev{
+  background: #013E80;
+}
+.waves-blue{
+  background: #013E80;
+}
+p{
+  color: gray;
+  margin-left: 40px;
+}
+.tabs .indicator{
+  background-color: #013E80;
+}
+.tabs .tab a{
+  color: #013E80;
+  background-color: #fafafa;
+}
+.tabs .tab a:hover{
+  color: #013E80;
+  background-color: none;
+}
+.alinhado > p{
+  margin-left: 0;
+}
+.alinhamento{
+  margin-left: 40px;
+}
+.collapsible{
+  margin-left: 30px;
+}
+label{
+  margin-left: 10px;
+}
+U{
+  margin-left: 10px;
+  color: #013E80;
+}
+.relacao{
+  border-right: 2px solid #013E80;
+  padding-right: 15px;
+  position: relative;
+}

@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>IEV - Instituto de Estudos Valeparaibanos</title>
+
+  <!-- CSS  -->
+  <link rel="apple-touch-icon" sizes="57x57" href="imgs/ico/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="imgs/ico/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="imgs/ico/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="imgs/ico/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="imgs/ico/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="imgs/ico/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="imgs/ico/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="imgs/ico/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="imgs/ico/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="imgs/ico/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="imgs/ico/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="imgs/ico/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="imgs/ico/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="imgs/ico/manifest.json">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="js/materialize.js"></script>
+</head>
+<body style="background-color: #FAFAFA;">
+  <main>
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">Arquivos</a></li>
+      <li><a href="#!">Biblioteca</a></li>
+    </ul>
+    <ul id="dropdown2" class="dropdown-content">
+      <li><a href="#!">Fotos e Imagens</a></li>
+      <li><a href="#!">Membros</a></li>
+    </ul>
+    <ul id="dropdown3" class="dropdown-content">
+      <li><a href="historia.html">História</a></li>
+      <li><a href="#!">Memórias</a></li>
+      <li><a href="#!">Documentação</a></li>
+      <li><a href="simposio_historia.html">Simpósio de história</a></li>
+      <li><a href="#!">Prêmios Concedidos</a></li>
+    </ul>
+    <ul id="dropdown1mb" class="dropdown-content">
+      <li><a href="#!">Arquivos</a></li>
+      <li><a href="#!">Biblioteca</a></li>
+    </ul>
+    <ul id="dropdown2mb" class="dropdown-content">
+      <li><a href="#!">Fotos e Imagens</a></li>
+      <li><a href="#!">Membros</a></li>
+    </ul>
+    <ul id="dropdown3mb" class="dropdown-content">
+      <li><a href="historia.html">História</a></li>
+      <li><a href="#!">Memórias</a></li>
+      <li><a href="#!">Documentação</a></li>
+      <li><a href="simposio_historia.html">Simpósio de história</a></li>
+      <li><a href="#!">Prêmios Concedidos</a></li>
+    </ul>
+    <div class="navbar-fixed">
+      <nav class="navbar-material">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo"><img src="imgs/topo.png"></img></a>
+          <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="/">Página Inicial</a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Acervo<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="diretoria.html">Diretoria</a></li>
+            <li><a href="informativos.html">Informativos</a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Galeria<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown3">História e Memória<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="active" href="premios.html">Prêmiações Culturais</a></li>
+            <li><a href="leitor.html">Espaço do Leitor</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile">
+            <li><a href="/">Página Inicial</a></li>
+            <li><a class="dropdown-buttonmb" href="#!" data-activates="dropdown1mb">Acervo<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="#iretoria.html">Diretoria</a></li>
+            <li><a href="informativos.html">Informativos</a></li>
+            <li><a class="dropdown-buttonmb" href="#!" data-activates="dropdown2mb">Galeria<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-buttonmb" href="#!" data-activates="dropdown3mb">História e Memória<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="active" href="premios.html">Prêmiações Culturais</a></li>
+            <li><a href="leitor.html">Espaço do Leitor</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container" id="teste"><br>
+      <h4 style="color: #4867C7;">Distinção Ecológica “Prof José Luis Pasin“</h4><br><br>
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s12 m6"><a class="active" href="#test1">História da Premiação</a></li>
+            <li class="tab col s12 m6"><a href="#test2">Relação dos premiados</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div id="test1" class="col s12 m12"><br>
+          <img src="imgs/tag3.jpg" alt="" class="circle responsive-img" style="float:left; padding:10px;" width="292px" height="177px;">
+          <h style="color:gray;">
+            Nasceu a 25 de abril de 1919 na cidade de Piquete, SP. Filho de Francisco Pereira dos Reis e de Emília Costa Pereira dos Reis. Casado com Lucinda Moura Pereira dos Reis, o casal teve quatro filhos.<br>
+            Estudou em Lorena, onde se formou professor normalista (1939). Administrador de empresas e bacharel em ciências jurídicas e sociais (1967). Foi professor primário, secundário de História Geral e do Brasil e de Sociologia, e professor universitário de História e Economia Política. Procurador da Caixa Econômica do Estado de São Paulo, seu delegado regional no Vale do Paraíba, diretor de Departamento da mesma Caixa, diretor geral e finalmente Superintendente da Caixa até se aposentar em 1975. Assessor Técnico do Gabinete do Governador do Estado de São Paulo (1977-79), no Governo Paulo Egídio, quando integrou com o acadêmico Fernando Góes a Comissão que organizou a "Coleção Paulística" e lançou os vols. I a XVII.<br>
+            Cidadão honorário de Lorena (1966), membro da Sociedade de Estudos Históricos de São Paulo, titular da Academia Cristã de Letras, do Instituto Histórico e Geográfico de São Paulo, foi presidente da Comissão Estadual de Literatura do Conselho Estadual de Cultura do Estado de São Paulo, presidente da Academia Paulista de História, e presidente do Instituto de Estudos vale-paraibanos. Pertenceu ainda a outras associações culturais e foi detentor de medalhas culturais.<br><br>
+
+            <b> BIBLIOGRAFIA </b><br><br>
+
+            Publicou numerosos estudos sobre administração, destacando-se "Caixa Econômica do Estado de São Paulo - histórico, finalidades e funções sociais" (1972) e "A Caixa Econômica do Estado de São Paulo: uma visão da sua organização e de seus problemas" (1974). E sobre história, educação e outros temas publicou cerca de trinta títulos, dos quais destacam-se: "Miscigenação e etnia brasileira", in Revista de História, vol. 48, SP, 1961; "O colonialismo português e a conjuração mineira", com prefácio de Tomás O. Marcondes de Souza e apresentação do acadêmico João Fernando (Yan) de A. Prado, vol. 319 da coleção Brasiliana, Cia. Ed. Nacional, SP, 1964; "Os Puri de Guapacaré e algumas achegas à História de Queluz", in Revista de História, vol. 61, 1965, SP; "O caminho novo da Piedade no nordeste da Capitania de SP", vol. 10 da Coleção História, Conselho Estadual de Cultura, 1971, SP; "O indígena do Vale do Paraíba", vol. XVI da Coleção Paulística, Governo do Estado de SP, 1979; "As divisas municipais entre Guaratinguetá e Lorena", com prefácio do acadêmico Raul de Andrada e Silva, Universidade de Taubaté, SP, 1980; "O território oriental da Vila de Lorena. A extrema da capitania paulista no Vale do Paraíba", in Anais do Museu Paulista, XXX, 1980-81, SP; e "Caminhos de Penetração da capitania de São Paulo", in Anais do Museu Paulista, XXX, 1982, SP.<br><br>
+          </div>
+        </div>
+        <div id="test2" class="col s12">
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                1997
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal1">Aziz Nacib Ab’Saber</a><br>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position: absolute; left:100px;">
+                1998
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal2">Eduardo D’Oliveira França</a><br>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                1999
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal3">Joaquim Alves Motta Sobrinho</a><br>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px; top: 680px;">
+                2000
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal4">José Armando Zollner Machado</a><br>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px; top: 810px;">
+                2001
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal5">José Geraldo Evangelista</a><br>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                2002
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal6">Milton de Moura França</a><br>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                2003
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal7">Pedro Paulo FIlho</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                2004
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal8">Dr. José Pedro de Oliveira Costa</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                2005
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal9">Olga de Sá</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                2006
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal10">Caio de Andrade</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                2007
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal11">Lucila Junqueira Barbosa</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                2008
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal12">Ruth Guimarães Botelho</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                2009
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal13">Dr. Marcio Tomas Bastos</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                2010
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal14">Dr. José Alves</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                2011
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal15">Renato Cesar Brito de Moura</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                2012
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal16">Hugo de Domenico</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                2013
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal17">Nelson Pesciotta</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col m2">
+              <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                2014
+              </h>
+            </div>
+            <div class="col m12"style="border-left: 2px solid #013E80">
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <a class="waves-effect modal-trigger" href="#modal18">Daniel Munduruku</a><br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!-- Modal 1 -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <img src="imgs/tag3-modal1.jpg" width="250px" height="230px" style="float:left; padding: 10px;">
+      <h4 style="color:#013E80;">Aziz Nacib Ab’Saber</h4><br>
+      <p>
+        Aziz Nacib Ab’Saber é um geografo e ambientalista brasileiro, professor universitário e considerado como referência nos assuntos relacionados ao meio ambiente e impactos ambientais decorrentes das atividades humanas.<br><br>
+        <br><br><b>Premiação:</b><br>
+          Recebeu Medalha Mérito "Paulo Pereira dos Reis".
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <img src="imgs/tag3-modal2.jpg" width="250px" height="230px" style="float:left;padding:10px;">
+      <h4 style="color:#013E80;">Eduardo D’Oliveira França</h4><br>
+      <p>
+      Historiador e catedrático da Universidade de São Paulo, nascido em Queluz.<br><br><br>
+        <br><br><br><b>Premiação:</b><br>
+        Recebeu Medalha Mérito "Paulo Pereira dos Reis".
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <img src="imgs/tag3-modal3.jpg" width="300px" height="280px" style="float:left;padding:10px;">
+      <h4 style="color:#013E80;">Joaquim Alves Motta Sobrinho</h4><br><br>
+      <p>
+        Escritor e historiador, autor da obra “A civilização do Café”, nascido em Guaratinguetá.<br><br><br><br><br><br>
+        <b>Premiação:</b><br>
+        Recebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left;">
+      <h4 style="color:#013E80;">José Armando Zollner Machado</h4><br><br>
+      <p>
+        Diretor da USEFAZ, foi grande colaborador das atividade do Instituto de Estudos Valeparaibanos – Guaratinguetá.<br><br><br><br><br><br>
+        <b>Premiação:</b><br>
+        Recebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left;">
+      <h4 style="color:#013E80;">José Geraldo Evangelista</h4><br><br>
+      <p>Membro da Academia Paulista de Historia e autor, entre outros, do livro “Lorena no Século XIX”, nascido em Lorena.<br><br><br><br><br><br><br><br>
+        <b>Premiação:</b><br>
+          Recebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div id="modal6" class="modal">
+    <div class="modal-content">
+      <img src="imgs/tag3-modal6.jpg" width="230px" height="200px" style="float:left; padding:10px;">
+      <h4 style="color:#013E80;">Milton de Moura França</h4><br><br>
+      <p>
+        Membro do Superior Tribunal do Trabalho, nascido em Cunha.<br><br><br><br><br>
+        <b>Premiação:</b><br>
+        RRecebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 7 -->
+  <div id="modal7" class="modal">
+    <div class="modal-content">
+      <img src="imgs/tag3-modal7.jpg" width="200px" height="200px" style="float:left;padding: 10px;">
+      <h4 style="color:#013E80;">Pedro Paulo FIlho</h4><br>
+      <p>
+        Filho de Pedro Paulo e Izabel Cury Paulo. Nasceu em Pindamonhangaba em 04 de setembro de 1937, radicando-se em Campos do Jordão desde as primeiras semanas de vida. É casado com a professora e advogada Guiomar Aparecida de Castro Rangel Paulo e tem um filho, Pedro Paulo Netto, administrador de empresas e advogado.<br><br>
+        Filho de Pedro Paulo e Izabel Cury Paulo, libaneses que chegaram ao Brasil em 1.924, transferindo-se para Campos do Jordão em 1.928, vitimas de tuberculose. Pedro Paulo nasceu em Tiro (Sur) e Izabel em Biskinta (Libano).<br><br>
+        Pedro Paulo traduziu o nome que, em árabe era Butros Boulos. Casaram-se em 1.930, ainda enfermos e tiveram três filhos: Fausi Paulo (engenheiro), Pedro Paulo Filho (advogado) e Sergio Cury Paulo (cirurgião-dentista).<br>
+
+        <b>Premiação:</b><br>
+        Recebeu Premio "Eugênia Sereno", na categoria História/Turismo, com a obra ”Campos do Jordão- onde sempre é estação”.<br>
+        Recebeu prêmio "Eugenia Sereno" na categoria Documentação como Menção Honrosa, pela obra “ História da Estrada de Ferro Campos do Jordão” e ‘Cerejeira em Campos”.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 8 -->
+  <div id="modal8" class="modal">
+    <div class="modal-content">
+      <img src="imgs/tag3-modal8.jpg" width="250" height="230px" style="float:left; padding: 10px;">
+      <h4 style="color:#013E80;">Dr. José Pedro de Oliveira Costa</h4><p>Membro do Superior Tribunal do Trabalho, nascido em Cunha.</p><br><br><br><br><br>
+
+      <b>Premiação:</b><br><br>
+        Recebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 9 -->
+  <div id="modal9" class="modal">
+    <div class="modal-content">
+      <img src="imgs/tag2-modal10.jpg" width="250" height="230px" style="float:left; padding: 10px;">
+      <h4 style="color:#013E80;">Olga de Sá</h4><p>Escritora, idealizadora da revista “Ângulo” e Diretora das Faculdades Integradas “Tereza D’Avila” de Lorena.</p><br><br>
+      <p>
+        Doutora em Comunicação e Semiótica - PUCSP - 1984 .<br>
+        Mestre em Teoria Literária - PUCSP - 1978 .<br>
+        Pós-Graduação em Psicologia Clínica - PUCSP .<br>
+        Orientadora Educacional pela Faculdade "Auxilium", de Lins, São Paulo .<br>
+        Licenciada em Letras Clássicas pela Faculdade de Filosofia, Ciências e Letras Sedes Sapientiae de São Paulo .<br>
+        Licenciada em Filosofia - Faculdade de Filosofia, Ciências e Letras de São Bento - São Paulo - Brasil .<br>
+        Curso de Psicologia e Estágios no Instituto Internazionale Superiore di Pedagogia e Scienze Religiose - Turim - Itália - l960 .<br>
+        Diplomada em Ciências Religiosas pelo Instituto Internazionale Superiore de Pedagogia e Scienze Religiose - Turim - Itália, 1960 .<br>
+        Bacharel em Biblioteconomia - FATEA - Santo André - SP .<br><br>
+
+        <b>ESPECIALIZAÇÕES:</b><br>
+        Especialização em Comunicação e Cinema - FSFCL/Lorena - SP .<br>
+        Especialização em Literatura Brasileira na Faculdade de Filosofia, Ciências e Letras Sedes Sapientiae - SP .<br>
+        Especialização em Epistemologia e questões de Cosmologia e Metafísica Geral - FFCL - São Paulo .<br>
+        Tecnologia da Educação: Planejamento do Ensino - IST - Lorena - SP .<br><br>
+
+        DIRETORA GERAL DAS FACULDADES INTEGRADAS TERESA D'ÁVILA, LORENA, SP <br><br>
+
+        LIVROS PUBLICADOS: <br>
+        CLARICE LISPECTOR: A TRAVESSIA DO OPOSTO. Editora Annablume, 1993, 288 páginas. A ESCRITURA DE CLARICE <br>
+        LISPECTOR, VOZES, 1993, 2ª edição, 360 páginas. ARTE E CULTURA NO VALE DO PARAÍBA - LITERATURA , Lorena, Gráfica <br>
+        Santa Teresa, 1998, 157P. “SEMIÓTICA E RELIGIÃO”, BABEL - Cadernos de Semiótica e Religião da PUC/SP, nº 01, p. 10 a 20 .<br><br>
+
+        TRADUÇÃO DE LIVROS: PHILLIPPE, JACQUES. A PAZ A SEU ALCANCE - pequeno tratado sobre a paz do coração. Jacques Philippe; tradução de OLGA DE SÁ. Aparecida, SP. Editora Santuário, 1996. título original: RECHERCHE LA PAIX ET POURSUIS-LA: PETIT TRAITÉ SUR LA PAIX DU COEUR.<br>
+        CROISSANT, Jo. A MULHER SACERDOTAL OU O SACERDÓCIO DO CORAÇÃO. Trad. de Olga de Sá, Edições Des Beatitudes, Sociedade das obras comunitárias, 1995.<br>
+        DOMINGUEZ, Xan López. A TERRA É SUA. CUIDE DELA. Ed. Santuário.<br>
+        PHILLIPPE MADRE, Souffrance des hommes et compassion de Dieu, /tradução: Sá, Olga de / Saber amar-se: prelúdio para a vida mística , Aparecida, SP: Editora Santuário, 2000, p. 184.<br><br>
+
+        Possui também vários artigos publicados em revistas nacionais e estrangeiras bem como a organização e participação em congressos, eventos culturais, ciclos de estudos, exposições, cursos, encontros científicos entre outras atividades acadêmicas e administrativas.<br><br>
+
+        EDITORAÇÃO: ORGANIZAÇÃO DA REVISTA ÂNGULO, PUBLICADA PELA GRÁFICA SANTA TERESA, LORENA, SÃO PAULO desde de 1978, nº 00 até a presente data.<br><br>
+
+        PRÊMIOS RECEBIDOS: 2009 - MULHER DO ANO, Cãmara Municipal de Lorena e GRANDE MULHER DO ANO, Secretaria da Cultura.<br>
+        2005 - MEDALHA DE MÉRITO PAULO PEREIRA DOS REIS, INSTITUTO DE ESTUDOS VALEPARAIBANOS. 2004 - PERSONALIDADE AGITA WAY, Equipe Agita Way.<br>
+        2000 - Distinção Cultural PAULO CAMILLHER FLORENÇANO, INSTITUTO DE ESTUDOS VALEPARAIBANOS. 1999 - A INTELECTUAL VALEPARAIBANA DO ANO, ROTARY.<br>
+        1996 - MULHER NOTA 10, ROTARY CLUB. 1994 - ENSAIO, APCA. 1993 - PRÊMIO MALBA TAHAN. 1980 - PRÊMIO NACIONAL (BRASILIA ) DE LITERATURA-ENSAIO E CRÍTICA, Associação de Críticos de Arte de Brasília.<br><br>
+
+        OUTRAS INFORMAÇÕES RELEVANTES: 1.Membro Titular do Conselho Estadual de Educação do Estado de São Paulo - 2002 a 2005, tendo assumido em 2004, a vice-presidência do referido órgão. 2.Membro do Grupo de Reflexão Pedagógica das Escolas das Irmãs Salesianas do Esatado de São Paulo. 3. Membro da Comissão Especial do CEE- Portaria CEE GP nº 420/2002 - visando estabelecer as diretrizes educacionais para a realização de estágios em cursos de nível médio. 4. Membro do Conselho Consultivo do Instituto para o desenvolvimento integral da criança e do adolescente (INDICA), sediado em S. Paulo, à Rua Lavradio 165, Barra Funda. 5. Membro do Conselho Editorial da Revista online ECCOM - EDUCAÇÃO, CULTURA E COMUNICAÇÃO das Faculdades Integradas Teresa D´Ávila, de Lorena, SP. 6. Membro fundador da Academia de Letras de Lorena, empossado na cadeira 24, no dia 16 de agosto de 2009. 7. Assessoria Educacional às Faculdades Integradas Coração de Jesus - Santo André - SP<br><br>
+
+        <b>olgasa@fatea.br</b><br><br><br>
+
+        <b>Premiação:</b><br><br>
+        Recebeu a DISTINÇÃO CULTURAL “PAULO CAMILHER FLORENÇANO”
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 10 -->
+  <div id="modal10" class="modal">
+    <div class="modal-content">
+      <img src="imgs/tag3-modal10.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+      <h4 style="color:#013E80;">Caio de Andrade</h4><br>
+      <p>
+        Caio de Andrade é um dramaturgo e diretor de teatro brasileiro. Nascido em Lorena, SP e radicado no Rio de Janeiro, escreveu e dirigiu diversos espetáculos, muitos deles indicados ou ganhadores dos principais prêmios do Brasil.<br><br><br><br><br><br>
+
+        <b>Premiação:</b><br>
+        Recebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 11 -->
+  <div id="modal11" class="modal">
+    <div class="modal-content">
+      <img src="imgs/tag3-modal11.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+      <h4 style="color:#013E80;">Lucila Junqueira Barbosa</h4><br>
+      <p>
+        Lucila Junqueira Barbosa é professora, doutora e reitora da UNITAU.<br><br><br><br><br><br><br><br><br>
+        <b>Premiação:</b><br><br>
+        Recebeu a DISTINÇÃO CULTURAL “PAULO CAMILHER FLORENÇANO” pela Preservação da Memória Cultural da Imigração Italiana no Município de Taubaté.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 12 -->
+  <div id="modal12" class="modal">
+    <div class="modal-content">
+      <img src="imgs/tag2-modal6.jpg" width="250px" height="230px" style="float:left; padding: 10px;">
+      <h4 style="color:#013E80;">Ruth Guimarães Botelho</h4><br>
+      <p>
+        Nasceu em Cachoeira Paulista, no dia 13 de junho de 1920, em sítio do avô materno, o português José Botelho, guarda-chaves da Estrada de Ferro Central do Brasil, na rua do Aterro, atual Carlos Pinto, entre as barrancas do rio Paraíba e os trilhos da estrada de ferro. Aos dez anos de idade, publicou seus primeiros versos nos jornais locais “A Região” e “A Notícia”.<br><br>
+        Foi viver em São Paulo, em 1938. Ingressou no curso de Letras Clássicas da Faculdade de Filosofia, Ciências e Letras da Universidade de São Paulo, onde foi aluna de Silveira Bueno, Antonio Soares Amora, Fidelino de Figueiredo, Roger Bastide e outros mestres de renome internacional. Ali conheceu Odilon Nogueira de Mattos, então secretário da faculdade. E foi colega de estudos de Erwin Rosenthal e Emir Macedo Nogueira.<br><br>
+        Freqüentou a Escola de Arte Dramática, de Alfredo Mesquita, estudando Dramaturgia e Crítica. Foi aluna e discípula de Mário de Andrade, que a iniciou nos estudos de folclore e literatura popular. Trabalhou para diversas editoras co-mo revisora e tradutora e escreveu crônicas, artigos e crítica literária para jornais e revistas de São Paulo, Rio de Janeiro e Lisboa: Correio Paulistano, A Gazeta, Diário de São Paulo, Folha da Manhã, publicando contos no Suplemento Literário do jornal O Estado de São Paulo e crônicas semanais para o jornal Folha de São Paulo. Produziu vários livros e traduções para a Editora Cultrix, onde trabalhou ao lado de José Paulo Paes.<br><br>
+        Foi repórter das revistas Noite Ilustrada, Carioca, Globo, Semana Ilustrada, Senhora, Quatro Rodas, Realidade, Atualidades Literárias e Revista Lusitana (Portugal). Em 1946, lançou pela Editora da Livraria Globo seu primeiro livro, Água Funda, romance que retrata o universo rural e caipira do Vale do Paraíba paulista e mineiro, nas vertentes da serra da Mantiqueira, sucesso de público e crítica. Um dos primeiros críticos a lhe dar atenção foi Antonio Cândido, seu amigo até hoje e autor do prefácio da reedição lançada pela Editora Nova Fronteira em 2004. No lançamento de Água Funda, estiveram presentes personalidades como Amadeu de Queiroz, Guimarães Rosa e Lygia Fagundes Telles.<br><br>
+        Seu segundo livro, Filhos do Medo, ampla pesquisa folclórica sobre o diabo e todas as manifestações demoníacas no imaginário do homem valeparaibano, valeu-lhe um verbete na Encyclopédie Française de la Pléiade, sendo Ruth Guimarães a única escritora latino-americana a receber esta distinção. Lecionou em colégios e faculdades: francês na Aliança Francesa de São Paulo, grego na Universidade de Taubaté, Folclore na Faculdade de Música Santa Cecília de Pindamonhangaba, Psicologia da Arte e Literatura Latina nas Faculdades Integradas Teresa D'Ávila em Lorena, Literatura Brasileira e Portuguesa na Faculdade de Filosofia, Ciências e Letras de Cruzeiro. Há trinta anos vem pesquisando as ervas e raízes medicinais e hoje prepara uma enciclopédia em doze volumes sobre me-dicina natural. Fundou a Academia Cachoeirense de Letras, o Museu de Folclore Valdomiro Silveira e a Guarda Mirim de Cachoeira Paulista. Participou ativamente do 1º Congresso Brasileiro de Folclore, da Sociedade Paulista de Escrito-res, do Centro de Pesquisas Folclóricas Mário de Andrade, da Comissão Estadual de Folclore, dos Festivais de Folclore de Olímpia. É membro do Instituto de Es-tudos Valeparaibanos e da União Brasileira de Escritores. Em 1989, recebeu do Instituto de Estudos Valeparaibanos o Prêmio Cultural “Eugênia Sereno”. Além de mais de quarenta livros publicados, incluindo biografias, antologias e tradu-ções do latim, do espanhol, do francês e do italiano, Ruth Guimarães participou da montagem da peça “Romaria”, dirigida por Miroel Silveira, com músicas de Almir Sater e Renato Teixeira. O Grupo de Teatro do SESC de São Paulo encenou a peça de sua autoria “A Pensão de Dona Branca”.<br><br>
+        Reside atualmente em Cachoeira Paulista, no sítio herdado de seu avô materno, onde cuida das suas plantas, galinhas e patos, pesquisa e escreve seus livros, contos e crônicas, recebe os amigos, alunos e admiradores para a prosa gos-tosa e hospitaleira. Terminou a mais completa pesquisa sobre Pedro Malazarte, o herói mitológico popular e está escrevendo um novo romance intitulado O Livro da Bruxa. Foi casada por 51 anos com o primo, o fotógrafo e jornalista José Botelho Netto, amigo e companheiro de jornadas e pesquisas, morto em 2001. Tiveram nove filhos: Marta, Rubem, Antonio José, Joaquim Maria, Judá, Marcos, Rovana, Olavo e Júnia: poetas, jornalistas, professores.<br><br>
+        Fonte: União Brasileira de Escritores<br><br><br>
+
+        <b>Premiação:</b><br><br>
+        Recebeu o Prêmio DISTINÇÃO CULTURAL “PAULO CAMILHER FLORENÇANO”.<br>
+        Recebeu Prêmio "Eugenia Sereno" na categoria Contos, com a obra “Caledoscópio-Asaga de Pedro Malasartes”.
+      </p>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal 13 -->
+    <div id="modal13" class="modal">
+      <div class="modal-content">
+        <img src="imgs/tag3-modal13.JPG" width="300px" height="280px" style="float:left; padding: 10px;">
+        <h4 style="color:#013E80;">Dr. Marcio Tomas Bastos</h4><br>
+        <p>
+          Nascido em Cruzeiro, ex-presidente  nacional da Ordem dos Advogados do Brasil.<br><br><br><br><br><br><br><br>
+          <b>Premiação:</b><br><br>
+          Recebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS
+        </p>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+        </div>
+      </div>
+    </div>
+
+      <!-- Modal 14 -->
+      <div id="modal14" class="modal">
+        <div class="modal-content">
+          <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+          <h4 style="color:#013E80;">Dr. José Alves</h4><br>
+          <p>
+            Advogado e ex- Reitor da Universidade de Taubaté <br><br><br><br><br><br><br><br><br><br>
+            <b>Premiação:</b><br><br>
+            Recebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS
+          </p>
+          <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 15 -->
+      <div id="modal15" class="modal">
+        <div class="modal-content">
+          <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+          <h4 style="color:#013E80;">Renato Cesar Brito de Moura</h4><br>
+          <p>
+            Diretor executivo da Associação Brasileira de Metalurgia Materiais e Mineração. <br><br><br><br><br><br><br><br>
+            <b>Premiação:</b><br><br>
+            Recebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS
+          </p>
+          <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+          </div>
+        </div>
+      </div>
+
+        <!-- Modal 16 -->
+        <div id="modal16" class="modal">
+          <div class="modal-content">
+            <img src="imgs/hugo.jpg" width="250px" height="230px" style="float:left; padding: 10px;">
+            <h4 style="color:#013E80;">Hugo de Domenico</h4><br>
+            <p>
+              Medico e escritor. Filho de Imigrantes Italianos. <br><br><br><br><br><br><br><br>
+              <b>Premiação:</b><br><br>
+              Recebeu prêmio MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS
+            </p>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 17 -->
+        <div id="modal17" class="modal">
+          <div class="modal-content">
+            <img src="imgs/tag3-modal17.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+            <h4 style="color:#013E80;">Nelson Pesciotta</h4><br>
+            <p>
+              É natural de Campinas, onde nasceu a 3 de novembro de 1923. Fundador do jornal "Sete Dias" e do "Rotary Club" de Pindamonhangaba. Foi presidente do IEV por mais de 20 anos. Membro da Academia de Letras de Campos de Jordão e membro honorario da Academia Pindamonhangabense de Letras. Coordenador do NEPA.<br><br><br><br><br>
+              <b>Premiação:</b><br><br>
+              Recebeu prêmio DISTINÇÃO CULTURAL “PAULO CAMILHER FLORENÇANO”, enquanto era  presidente do Instituto de Estudos Valeparaibanos, homenageando seus 80 anos e os relevantes serviços prestados a cultura do Vale do Paraíba.<br>
+              Recebeu MEDALHA de MÉRITO “ PAULO PEREIRA DOS REIS “, pelo seu desempenho, destaque profissional e pelos 20 anos de Presidente do IEV.
+            </p>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 18 -->
+        <div id="modal18" class="modal">
+          <div class="modal-content">
+            <img src="imgs/hugo.jpg" width="250px" height="230px" style="float:left; padding: 10px;">
+            <h4 style="color:#013E80;">Daniel Munduruku</h4><br>
+            <p>
+              Escritor indígena com 45 livros publicados, graduado em Filosofia, tem licenciatura em História e Psicologia. Doutor em Educação pela USP. <br><br><br><br><br><br>
+              <b>Premiação:</b><br><br>
+              Recebeu medalha de Mérito Paulo Pereira dos Reis.
+            </p>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 19 -->
+        <div id="modal19" class="modal">
+          <div class="modal-content">
+            <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+            <h4 style="color:#013E80;">Vicente de Paula Vale</h4><br>
+            <p>
+              <b>Premiação:</b><br><br>
+              Recebeu prêmio DISTINÇÃO CULTURAL “PAULO CAMILHER FLORENÇANO”, sendo organizador do Museu Malba Tahan, de Queluz.
+            </p>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 20 -->
+        <div id="modal20" class="modal">
+          <div class="modal-content">
+            <img src="imgs/tag2-modal20.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+            <h4 style="color:#013E80;">Eliana Ferreira Leite</h4><br>
+            <p>
+              <b>Premiação:</b><br><br>
+              Recebeu DISTINÇÃO CULTURAL “PAULO CAMILHER FLORENÇANO” pelo trabalho de preservação da Fazenda São Francisco em São José do Barreiro e a defesa do patrimônio histórico-cultural do Vale Histórico.
+            </p>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 21 -->
+        <div id="modal21" class="modal">
+          <div class="modal-content">
+            <img src="imgs/tag2-modal21.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+            <h4 style="color:#013E80;">Gil do Jongo</h4><br>
+            <p>
+              Mestre Gil (Gilberto Augusto da Silva) / Pontão do Jongo e Jongo do Piquete<br>
+              Gil do Jongo é uma liderança jovem, dedicada à divulgação do Jongo do Piquete pelo Brasil e exterior. Promove oficinas de jongo e, de forma lúdica e interativa, divide com os participantes seus conhecimentos das tradições e história negra no Brasil.
+              Fonte: II Mostra do Samba de Roda.<br>
+
+              <b>Premiação:</b><br><br>
+              Recebeu DISTINÇÃO CULTURAL “PAULO CAMILHER FLORENÇANO”, pela divulgação da cultura imaterial do Jongo.
+            </p>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 22-->
+        <div id="modal22" class="modal">
+          <div class="modal-content">
+            <img src="imgs/tag2-modal22.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+            <h4 style="color:#013E80;">Diego Amaro de Almeida</h4><br>
+            <p>
+              Mestre em História Social pela Pontifícia Universidade Católica de São Paulo (2014) Licenciado em História pelo Centro Universitário Salesiano de São Paulo (2009).<br><br>
+              Atualmente é Pesquisador do Portal valedoparaíba.com (2008) e Assistente do CESAPER “Centro Salesiano de Pesquisas Regionais - Prof. José Luiz Pasin” (2010)<br><br><br><br>
+              <b>Premiação:</b><br>
+              Recebeu Medalha de Mérito IEV.
+            </p>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="page-footer blue-iev">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12" id="teste">
+              <h5 class="white-text">Blogues e Sites </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-copyright">
+          <div class="container">
+            <center><b>© Copyright 2016</b> - Todos os direitos são reservados ao <b>Instituto de Estudos Valeparaibanos - IEV</b></center>
+          </div>
+        </div>
+      </footer>
+      <!--  Scripts-->
+      <script>
+      $(document).ready(function(){
+        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+        $('.modal-trigger').leanModal();
+        $('#modal1').openModal();
+        $('#modal1').closeModal();
+      });
+      </script>
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/main.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>IEV - Instituto de Estudos Valeparaibanos</title>
+
+  <!-- CSS  -->
+  <link rel="apple-touch-icon" sizes="57x57" href="imgs/ico/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="imgs/ico/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="imgs/ico/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="imgs/ico/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="imgs/ico/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="imgs/ico/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="imgs/ico/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="imgs/ico/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="imgs/ico/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="imgs/ico/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="imgs/ico/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="imgs/ico/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="imgs/ico/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="imgs/ico/manifest.json">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="js/materialize.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</head>
+<body style="background-color: #FAFAFA;">
+  <main>
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">Arquivos</a></li>
+      <li><a href="#!">Biblioteca</a></li>
+    </ul>
+    <ul id="dropdown2" class="dropdown-content">
+      <li><a href="#!">Fotos e Imagens</a></li>
+      <li><a href="#!">Membros</a></li>
+    </ul>
+    <ul id="dropdown3" class="dropdown-content">
+      <li><a href="historia.html">História</a></li>
+      <li><a href="#!">Memórias</a></li>
+      <li><a href="#!">Documentação</a></li>
+      <li><a href="simposio_historia.html">Simpósio de história</a></li>
+      <li><a href="#!">Prêmios Concedidos</a></li>
+    </ul>
+    <ul id="dropdown1mb" class="dropdown-content">
+      <li><a href="#!">Arquivos</a></li>
+      <li><a href="#!">Biblioteca</a></li>
+    </ul>
+    <ul id="dropdown2mb" class="dropdown-content">
+      <li><a href="#!">Fotos e Imagens</a></li>
+      <li><a href="#!">Membros</a></li>
+    </ul>
+    <ul id="dropdown3mb" class="dropdown-content">
+      <li><a href="historia.html">História</a></li>
+      <li><a href="#!">Memórias</a></li>
+      <li><a href="#!">Documentação</a></li>
+      <li><a href="simposio_historia.html">Simpósio de história</a></li>
+      <li><a href="#!">Prêmios Concedidos</a></li>
+    </ul>
+    <div class="navbar-fixed">
+      <nav class="navbar-material">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo"><img src="imgs/topo.png"></img></a>
+          <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="/">Página Inicial</a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Acervo<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="diretoria.html">Diretoria</a></li>
+            <li><a class="active" href="informativos.html">Informativos</a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Galeria<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown3">História e Memória<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="premios.html">Prêmiações Culturais</a></li>
+            <li><a href="leitor.html">Espaço do Leitor</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile">
+            <li><a href="/">Página Inicial</a></li>
+            <li><a class="dropdown-buttonmb" href="#!" data-activates="dropdown1mb">Acervo<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="#iretoria.html">Diretoria</a></li>
+            <li><a class="active" href="informativos.html">Informativos</a></li>
+            <li><a class="dropdown-buttonmb" href="#!" data-activates="dropdown2mb">Galeria<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-buttonmb" href="#!" data-activates="dropdown3mb">História e Memória<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="premios.html">Prêmiações Culturais</a></li>
+            <li><a href="leitor.html">Espaço do Leitor</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container" id="teste"><br><br>
+      <h4 style="color:#013E80;">Informativos Culturais do IEV</h4><hr><br><br>
+            <div id="test2" class="col s12">
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    2014
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                   <a class="waves-effect modal-trigger" href="http://iev.org.br/img/lib_arquivos/INFORMATIVO/Informativo%20-outubro-novembro%20-%202014%20(2).pdf" target="_blank">pdf1</a><br>
+                   <a class="waves-effect modal-trigger" href="http://iev.org.br/img/lib_arquivos/INFORMATIVO/iev_229-PB%20(2).pdf" target="_blank" target="_blank">pdf2</a>
+                  </div>
+                </div>
+              </div>
+              <br>
+                <div class="row">
+                  <div class="col m2">
+                      <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                      2013
+                    </h>
+                  </div>
+                  <br>
+                  <div class="col m12"style="border-left: 2px solid #013E80">
+                    <div class="card-panel grey lighten-5 z-depth-1">
+                      <a class="waves-effect modal-trigger" href="http://iev.org.br/img/lib_arquivos/INFORMATIVO/Jornal%20IEV%20n%202252.pdf" target="_blank">pdf3</a><br>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col m2">
+                      <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                      2012
+                    </h>
+                  </div>
+                  <div class="col m12"style="border-left: 2px solid #013E80">
+                    <div class="card-panel grey lighten-5 z-depth-1">
+                      <a class="waves-effect modal-trigger" href="http://iev.org.br/img/lib_arquivos/INFORMATIVO/Jornal%20IEV%20n%20224%20(1).pdf" target="_blank">pdf4</a><br>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col m2">
+                      <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                      2011
+                    </h>
+                  </div>
+                  <div class="col m12"style="border-left: 2px solid #013E80">
+                    <div class="card-panel grey lighten-5 z-depth-1">
+                      <a class="waves-effect modal-trigger" href="http://iev.org.br/img/lib_arquivos/INFORMATIVO/Jornal%20IEV%20n%20220.pdf" target="_blank">pdf5</a><br>
+                      <a class="waves-effect modal-trigger" href="http://iev.org.br/img/lib_arquivos/INFORMATIVO/Jornal%20IEV%20n%20221_02.pdf" target="_blank">pdf6</a>
+                      <a class="waves-effect modal-trigger" href="http://iev.org.br/img/lib_arquivos/INFORMATIVO/Jornal%20IEV%20n%20222.pdf" target="_blank">pdf7</a>
+                      <a class="waves-effect modal-trigger" href="http://iev.org.br/img/lib_arquivos/INFORMATIVO/Jornal%20IEV%20n%20223.pdf" target="_blank">pdf8</a>
+                  </div>
+                </div>
+              </div>
+                <br>
+              <div class="row">
+                <div class="col m2">
+                    <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    2006
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="http://iev.org.br/img/lib_arquivos/INFORMATIVO/II2006171.pdf">pdf9</a><br>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col m2">
+                    <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    2005
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal9">Luiz Eduardo Corrêa Lima</a><br>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    2004
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    2003
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    2001
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    2000
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1999
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1998
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1997
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1996
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1995
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1994
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1993
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1992
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1991
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1989
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1988
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1987
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1985
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1984
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col m2">
+                  <h style="font-size: 30px; color: #013E80; padding-right: 15px; position:absolute; left:100px;">
+                    1983
+                  </h>
+                </div>
+                <div class="col m12"style="border-left: 2px solid #013E80">
+                  <div class="card-panel grey lighten-5 z-depth-1">
+                    <a class="waves-effect modal-trigger" href="#modal10">Adilson Roberto Gonçalves</a><br>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+         </div>
+  </div>
+
+  <!-- Modal 1 -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <img src="imgs/modal1.jpg" width="250px" height="230px" style="float:left; padding: 10px;">
+      <h4 style="color:#013E80;">Aristides Arthur Soffiati Netto</h4>
+      <p>
+        <b>Nascimento: 10 de fevereiro de 1947, na cidade do Rio de Janeiro.</b><br><br>
+        <b> Formação:<br></b>
+          1- Graduado em história pela Faculdade de Filosofia de Campos, em 1973;<br>
+          2- Especialista em história moderna e contemporânea pela Universidade Católica de Minas Gerais, em 1977;<br>
+          3- Mestre em História Social pela UFRJ, com a dissertação O Nativo e Exótico: Perspectivas para a História Ambiental na Ecorregião Norte-Noroeste do Estado do Rio de Janeiro entre os Séculos XV e XX;<br>
+          4- Doutor em História Social pela UFRJ, com estudo sobre as relações das sociedades humanas e os manguezais na região norte do Estado do Rio de Janeiro e sul do Estado do Espírito Santo. Título: Entre a Terra e a Água: Estudo das Relações das Antropossociedades com os Manguezais na Ecorregião de São Tomé entre 1950-2000.<br><br>
+
+        <b> Experiência profissional: </b><br>
+          1- Professor da Faculdade de Filosofia entre 1972 e 1987, com as disciplinas História da Antiguidade Oriental e História Contenporânea;<br>
+          2- Professor de História do Liceu de Humanidades de Campos entre 1973 e 1988;<br>
+          3- Professor de disciplinas da área de ciências humanas e de "Sociedade e Natureza" do ciclo básico do curso de Serviço Social de Campos, vinculado ao Instituto de Ciências da Sociedade e Desenvolvimento Regional, da Universidade Federal Fluminense, desde 1985.<br><br>
+
+        <b>Livros Publicados:</b><br>
+          1- O Jogo das Bolinhas (folclore). Brasília: Funarte, 1977;<br>
+          2- A Ecologia e a Nova Constituição Brasileira. São Paulo: Edicon, 1987;<br>
+          3- Ecologia: Reflexões para Debate. São Paulo: Paulinas: 1988;<br>
+          4- Depois do Princípio e Antes do Fim (poesia). Itaperuna: Damadá, 1990.<br>
+          5- Mário de Andrade e(m) Campos dos Goitacases: Correspondência de Mário de Andrade e Alberto Lamego (1935-1938). Niterói: Eduff, 1992.<br>
+          6- Devaneios Filosóficos sobre o Ecologismo (ensaios). Niterói: Eduff, 1996.<br>
+          7- Entre Câncer e Capricórnio: Argumentos em Defesa dos Manguezais do Norte Fluminense. Rio de Janeiro: Xerox do Brasil, 1998.<br>
+          8- O Direito e o Avesso do Mangue (poesia). Contagem: Líthera Maciel, 1999.<br><br>
+          Outras publicações: mais de mil artigos publicados desde 1974 em jornais e revistas especializadas sobre política, cultura e meio ambiente.<br><br>
+
+        <b>Premiação:</b><br>
+          Recebeu a DISTINÇÃO  ECOLÓGICA “ PROF. JOSÉ LUIS PASIN “.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left;">
+      <h4 style="color:#013E80;">Instituto OIKOS</h4>
+      <p><b>Premiação:</b><br>
+        Recebeu a DISTINÇÃO  ECOLÓGICA “ PROF. JOSÉ LUIS PASIN “.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left;">
+      <h4 style="color:#013E80;">Cooperativa Amigos do Lixo de Guaratinguetá</h4>
+      <p><b>Premiação:</b><br>
+        Recebeu a DISTINÇÃO  ECOLÓGICA “ PROF. JOSÉ LUIS PASIN “.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left;">
+      <h4 style="color:#013E80;">João de Toledo Cabral</h4>
+      <p><b>Premiação:</b><br>
+        Recebeu a DISTINÇÃO  ECOLÓGICA “ PROF. JOSÉ LUIS PASIN “.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left;">
+      <h4 style="color:#013E80;">Vicente Faria de Sales</h4>
+      <p><b>Premiação:</b><br>
+        Recebeu a DISTINÇÃO  ECOLÓGICA “ PROF. JOSÉ LUIS PASIN “.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div id="modal6" class="modal">
+    <div class="modal-content">
+      <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left;">
+      <h4 style="color:#013E80;">Comman - Conselho Municipal do Meio Ambiente de Lorena</h4>
+      <p><b>Premiação:</b><br>
+        Recebeu a DISTINÇÃO  ECOLÓGICA “ PROF. JOSÉ LUIS PASIN “.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 7 -->
+  <div id="modal7" class="modal">
+    <div class="modal-content">
+      <img src="imgs/iev.jpg" width="300px" height="280px" style="float:left;">
+      <h4 style="color:#013E80;">Vinicius Garcia Mattei</h4>
+      <p><b>Premiação:</b><br>
+        Recebeu a DISTINÇÃO  ECOLÓGICA “ PROF. JOSÉ LUIS PASIN “.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 8 -->
+  <div id="modal8" class="modal">
+    <div class="modal-content">
+      <img src="imgs/modal8.jpg" width="250" height="230px" style="float:left; padding: 10px;">
+      <h4 style="color:#013E80;">Lino Matheus de Sá Pereira</h4>
+      <p><b>Premiação:</b><br>
+        Recebeu a DISTINÇÃO  ECOLÓGICA “ PROF. JOSÉ LUIS PASIN “.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 9 -->
+  <div id="modal9" class="modal">
+    <div class="modal-content">
+      <img src="imgs/modal9.jpg" width="250px" height="230px" style="float:left; padding: 10px;">
+      <h4 style="color:#013E80;">Luiz Eduardo Corrêa Lima</h4>
+      <p>
+          Bacharel em Biologia, Faculdade de Humanidades Pedro II (FAHUPE), Rio de Janeiro, 1978;
+          Licenciado em Biologia, Faculdade de Humanidades Pedro II (FAHUPE), Rio de Janeiro, 1978;
+          Especialista em Malacologia, Museu Nacional da Universidade Federal do Rio de Janeiro (UFRJ), Rio de Janeiro, 1981;
+          Mestrado em Biologia Animal, Universidade Federal do Paraná (UFPR); Curitiba, 1983;
+          Doutorado em Biologia Animal, Universidade de São Paulo (USP), não concluído;
+          Vereador da Câmara Municipal de Caçapava (1997-2000 e 2001-2004);
+          Presidente da Câmara Municipal de Caçapava (2001-2002);
+          Professor de Ensino Superior, Técnico e Médio, há mais de 36 anos;
+          Sócio Fundador da Academia Caçapavense de Letras – ACL (Cadeira 25), em 0utubro de 2007.
+          Vice-presidente da Academia Caçapavense de Letras – ACL (Biênio 2010-2011 e 2012-2013);
+          Membro Correspondente da Academia de Lorenense de Letras, desde 2010;
+          Coordenador do Curso de Biologia das Faculdades Integradas Teresa D`Ávila (FATEA) de Lorena (2002 - 2007);
+          Membro do Conselho Consultivo da Floresta Nacional (FLONA) de Lorena, desde a fundação em 2005, até o presente;
+          Coordenador Geral do Conselho Administrativo da Floresta Nacional (FLONA) de Lorena (2005-2007);
+          Vice-Presidente do Conselho Consultivo da Floresta Nacional (FLONA) de Lorena (2008-2010);
+          Membro do Conselho Municipal do Meio Ambiente (COMMAM) de Lorena (2008-2010);
+          Professor Titular de Biologia das Faculdades Integradas Teresa D`Ávila (FATEA) de Lorena, tendo ministrado aulas nos Cursos de Graduação em Biologia, Administração de Empresas, Enfermagem e Fonoaudiologia, Economia Doméstica (desde 1989 até o presente);
+          Professor de Biologia do Ensino Médio da Escola Professora Francisca Salles Damasco de Caçapava (desde 1989 até o presente).
+          Professor na Área de Meio Ambiente, Saúde e Segurança do SENAC de Guaratinguetá (desde 2009 até o presente);
+          Professor de Pós-Graduação do Centro Universitário Salesiano (UNISAL) de Lorena (de 02/1997 até 12/2002);
+          Professor De Biologia e de Meio Ambiente do Ensino Médio e Técnico da Escola Técnica Everardo Passos (ETEP) de São José dos Campos (de 02/1994 até 06/2006);
+          Professor Concursado de Biologia e Meio Ambiente do Centro Estadual de Ensino Tecnológico Paula Souza (CEETEPS), ministrando aulas na Escola Técnica Estadual “Machado de Assis” de Caçapava (de 02/1995 até 06/2004);
+          Professor de Biologia do Ensino Médio do Instituto Nossa Senhora Auxiliadora (INSA) de Cruzeiro (de 01/2007 até 12/2007);
+          Professor Adjunto de Biologia Animal dos Cursos de Graduação em Biologia e Agronomia da Universidade de Taubaté (de 08/1980 até 02/1997);
+          Pesquisador do Museu Nacional da Universidade Federal do Rio de Janeiro (de 09/1977 até 12/1983);
+          Pesquisador do Museu de Zoologia da Universidade de São Paulo (de 08/1985 até 12/1989);
+          Vice-Presidente do Comitê Paulista da Bacia Hidrográfica do Rio Paraíba do Sul (Biênio 1999 - 2000);
+          Membro e Coordenador da Câmara Técnica Institucional do Comitê de Integração da Bacia Hidrográfica do Rio Paraíba do Sul (Biênio 2001-2002);
+          Conselheiro do Conselho Estadual do Meio Ambiente (CONSEMA) do Estado de São Paulo, Órgão máximo em Meio Ambiente do Estado (de 01/1997 até 12/2001);
+          Presidente do Conselho Municipal de Defesa do Meio Ambiente (COMDEMA) do Município de Caçapava (Biênio 1991-1992);
+          Publicou 9 livros e mais de 800 Trabalhos e Artigos nas áreas de Biologia Geral, Biologia Animal (Zoologia), Educação, Ensino, Meio Ambiente, Política, Rotarismo e sobre as mais diversas questões relacionadas à Região do Vale do Paraíba, seus aspectos ambientais, geográfico, biológicos e naturalísticos e ainda sobre a sua ocupação;
+          Publicou inúmeros Contos, Poesias e Cordéis sobre os mais diversos temas;
+          Ministrou vários Cursos e proferiu inúmeras Palestras sob os mais diversos temas, principalmente sobre Meio Ambiente e Política, em quase todas as cidades da Região Valeparaibana;
+          Sócio Fundador do Rotary Club Caçapava-Jequitibá, em 07/11/1991.
+          Presidente do Rotary Club Caçapava-Jequitibá nos Anos Rotários 1996/1997 e 2011/2012;
+          Vice-Presidente do Rotary Club Caçapava-Jequitibá nos Anos Rotários 1997/1998, 2005/2006, 2006/2007.
+          Governador Assistente da Área 04 do Distrito 4.600 de Rotary International nos Anos Rotários 2000/2001 e 2001/2002;
+          Membro Associado do Instituto de Estudos Valeparaibanos (IEV), desde 1987 até o presente;
+          Sócio Fundador da Associação Nacional dos Amigos da Escola (ANAE), em 08/2006;
+          Sócio e Membro Honorário de várias outras ONGs e Associações Ambientais, Científicas, Educacionais e Culturais.
+          Colaborador de vários Sites, Jornais e Revistas da Região Valeparaibana.
+          Nos últimos 4 anos publicou 1 “e-book” e 99 artigos no site do Recanto das Letras, os quais são contados e auditados diariamente e já contabilizam mais de 142.000 leituras. Para acessar basta entrar na página (www. recantodasletras.com.br/autores/profluizeduardo).<br><br>
+
+        <b>Premiação:</b><br>
+        Recebeu a DISTINÇÃO  ECOLÓGICA “ PROF. JOSÉ LUIS PASIN “.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+
+  <!-- Modal 10 -->
+  <div id="modal10" class="modal">
+    <div class="modal-content">
+      <img src="imgs/modal10.jpg" width="300px" height="280px" style="float:left; padding: 10px;">
+      <h4 style="color:#013E80;">Adilson Roberto Gonçalves</h4>
+      <p>É professor da Escola de Engenharia de Lorena - USP, formado em Química pela Unicamp. Foi presidente do Conselho Municipal de Meio Ambiente de Lorena de 2006 a 2010 e é presidente da Academia de Letras de Lorena. Possui projetos de extensão na área de divulgação ambiental para alunos de engenharia e sua inserção nos órgãos ambientais. Coordena o projeto "Engenho e Arte", que visa à elaboração de textos não científicos por alunos de engenharia.<br><br>
+        <b>Premiação:</b><br>
+        Recebeu a DISTINÇÃO  ECOLÓGICA “ PROF. JOSÉ LUIS PASIN “.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Fechar</a>
+    </div>
+  </div>
+  </main>
+
+<footer class="page-footer blue-iev">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12" id="teste">
+        <h5 class="white-text">Blogues e Sites </h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-copyright">
+    <div class="container">
+      <center><b>© Copyright 2016</b> - Todos os direitos são reservados ao <b>Instituto de Estudos Valeparaibanos - IEV</b></center>
+    </div>
+  </div>
+</footer>
+<!--  Scripts-->
+<script>
+$(document).ready(function(){
+ // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+ $('.modal-trigger').leanModal();
+});
+</script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
